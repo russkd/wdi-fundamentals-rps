@@ -61,6 +61,9 @@ function getWinner(playerMove,computerMove) {
     return (winner);
 }
 
+/* Creating the variable scores as an associative array was an idea 
+"borrowed" from @lukeshillabrand. */
+
 function playToFive() {
     console.log("Let's play Rock, Paper, Scissors.\n");
 
